@@ -88,7 +88,7 @@ header{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: white;
+    color:  #E1306C;
 }
 header p{
     text-align: center;
@@ -97,51 +97,60 @@ header p{
 
 #news{
     height: 400px;
-    background-color: lightgray;
+    background-color: lightslategray;
     padding: 60px;
     margin-bottom: 30px;
 }
 #news h1{
     margin: 15px 0;
     color: black;
+    text-align: center;
 }
 #news p{
     margin-bottom: 15px;
-    color: #808080;
+    color: black;
 }
 #about{
     height: 400px;
     padding: 60px;
+    text-align: center;
 }
 #about h1{
     margin: 15px 0;
-    color: #606060;
+    color: black;
+    text-align: center;
 }
 #about p{
-    color: #808080; 
+    color: black; 
     line-height: 1.4;
     margin-bottom: 10px;
 }
 #about h3{
-    color: #606060;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
 }
 #contact{
     height: 400px;
-    background-color: lightgray;
+    background-color: lightseagreen;
     padding: 60px;
+    text-align: center;
 }
 #contact h1{
     margin: 15px 0;
-    color: #606060;
+    color: black;
+    text-align: center;
 }
 #contact p{
-    color: #808080;
+    color: black;
     line-height: 1.4;
     margin-bottom: 10px;
 }
 #contact h2,h3{
-    color: #606060;
+    color: black;
     margin: 10px;
+    text-align: center;
 }
 .social a{
     text-decoration: none;
@@ -173,7 +182,8 @@ header p{
 }
 #services h1{
     margin: 15px 0;
-    color: #606060;
+    color: black;
+    text-align: center;
 } 
 .column{
     display: flex;
